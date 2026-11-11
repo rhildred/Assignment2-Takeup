@@ -9,13 +9,31 @@
         href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <style>
+        :root {
+            --main-background: hotpink;
+            --main-foreground: silver;
+            --pane-padding: 5px 42px;
+        }
+
         section {
             padding: 2rem 1em 0;
         }
-        body{
-            font-family: 'PT; Serif', serif;     
+
+        body {
+            font-family: 'PT; Serif', serif;
         }
-        h1, h2, h3, h4, h5, h6 {
+
+        header nav.bg-dark, footer{
+            background-color: var(--main-background) !important;
+            color: var(--main-foreground);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-family: 'Roboto', sans-serif;
         }
     </style>
